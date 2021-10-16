@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="348491b4-753b-4aef-87c9-b6cf2389979d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/owner/BrowserType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tests/owner/RunnerWithOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tests/owner/RunnerWithOwner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/owner/FrameworkConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/owner/FrameworkConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/FrameworkConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FrameworkConfig.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,29 +25,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="246" />
-          <entry key="properties" value="90" />
+          <entry key="java" value="282" />
+          <entry key="properties" value="91" />
           <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="246" />
-          <entry key="Properties" value="90" />
+          <entry key="JAVA" value="282" />
+          <entry key="Properties" value="91" />
           <entry key="XML" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="3" />
+          <entry key="java" value="4" />
           <entry key="properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="4" />
           <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
@@ -65,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/owner/FrameworkConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="256">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/owner/RunnerWithOwner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="156">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,10 +89,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/owner/BrowserType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/FrameworkConfig.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="3" column="5" selection-start-line="3" selection-end-line="3" selection-end-column="5" />
+            <state relative-caret-position="64">
+              <caret line="2" column="15" selection-start-line="2" selection-end-line="2" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -102,6 +113,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -117,9 +129,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tests/owner/RunnerWithOwner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utils/owner/BrowserType.java" />
         <option value="$PROJECT_DIR$/src/main/resources/FrameworkConfig.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/utils/owner/FrameworkConfig.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tests/owner/RunnerWithOwner.java" />
       </list>
     </option>
   </component>
@@ -199,7 +212,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1634394214443" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1634394648122" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -269,7 +282,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32860824" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32860824" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32860824" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -295,10 +308,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aeonbits/owner/owner/1.0.4/owner-1.0.4.jar!/org/aeonbits/owner/ConfigFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/owner/FrameworkConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="256">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -307,22 +327,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/FrameworkConfig.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="3" column="5" selection-start-line="3" selection-end-line="3" selection-end-column="5" />
+        <state relative-caret-position="64">
+          <caret line="2" column="15" selection-start-line="2" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/aeonbits/owner/owner/1.0.4/owner-1.0.4.jar!/org/aeonbits/owner/ConfigFactory.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/owner/BrowserType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="64">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tests/owner/RunnerWithOwner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="156">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

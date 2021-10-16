@@ -6,8 +6,10 @@ import java.util.List;
 @Config.Sources(value="file:${user.dir}/src/main/resources/FrameworkConfig.properties")
 public interface FrameworkConfig extends Config {
 
-    String browser();
+    @DefaultValue("FIREFOX")
+    BrowserType browser();
     Long timeout();
+    @Key("takeSscreenshot")
     boolean takeScreenshot();
     List<String> tools();
 }
