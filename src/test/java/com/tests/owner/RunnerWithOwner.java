@@ -9,5 +9,10 @@ public class RunnerWithOwner {
         FrameworkConfig config = ConfigFactory.create(FrameworkConfig.class);
         System.out.println(config.browser());
         System.out.println(config.timeout());
+
+        if(config.takeScreenshot()){
+            //Write Some Code here
+        }
+        config.tools().forEach(System.out::println);
     }
 }
