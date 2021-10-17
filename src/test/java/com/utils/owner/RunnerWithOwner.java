@@ -1,6 +1,5 @@
-package com.tests.owner;
+package com.utils.owner;
 
-import com.utils.owner.FrameworkConfig;
 import org.aeonbits.owner.ConfigFactory;
 
 public class RunnerWithOwner {
