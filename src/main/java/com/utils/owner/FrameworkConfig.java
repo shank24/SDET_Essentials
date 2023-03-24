@@ -8,8 +8,11 @@ public interface FrameworkConfig extends Config {
 
     @DefaultValue("FIREFOX")
     BrowserType browser();
+
     Long timeout();
+
     @Key("takeSscreenshot")
     boolean takeScreenshot();
+
     List<String> tools();
 }
