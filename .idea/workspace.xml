@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="348491b4-753b-4aef-87c9-b6cf2389979d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/owner/PropertyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/owner/ConfigProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/owner/TryWithResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/utils/owner/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/utils/owner/TryWithResourcesRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/owner/FrameworkConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/owner/FrameworkConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/owner/PropertyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/owner/PropertyUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/FrameworkConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/FrameworkConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FrameworkConfig.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +27,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -161,11 +167,27 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.utils.owner" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TryWithResourcesRunner">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.utils.owner.Runner" />
+      <module name="SDET_QA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.utils.owner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunnerWithOwner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.utils.owner.RunnerWithOwner" />
       <module name="SDET_QA" />
@@ -179,8 +201,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TryWithResourcesRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.utils.owner.TryWithResourcesRunner" />
+      <module name="SDET_QA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.utils.owner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TryWithResourcesRunner" />
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.RunnerWithOwner" />
       </list>
     </recent_temporary>
@@ -232,6 +269,17 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/utils/owner/Runner.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/aeonbits/owner/owner/1.0.4/owner-1.0.4.jar!/org/aeonbits/owner/ConfigFactory.class">

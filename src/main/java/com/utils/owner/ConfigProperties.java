@@ -1,0 +1,14 @@
+package com.utils.owner;
+
+public enum ConfigProperties {
+    URL,
+    OVERRIDEREPORTS,
+    PASSEDSTEPSSCREENSHOTS,
+    FAILEDSTEPSSCREENSHOTS,
+    RETRYFAILEDTESTS,
+    RUNMODE,
+    SENDRESULTTOELK,
+    SELENIUMGRIDURL,
+    ELASTICURL,
+    BROWSER
+}

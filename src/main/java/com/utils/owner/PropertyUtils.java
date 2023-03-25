@@ -6,9 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 public final class PropertyUtils {
 
-    private PropertyUtils() {
-
-    }
+    private PropertyUtils() {}
     /*
     1. Explicit call to readPropertyFile
     2. Improper exception shown to user
@@ -19,16 +17,15 @@ public final class PropertyUtils {
 
     public static String readPropertyFile(String key){
         Properties properties = null;
-        FileInputStream inputStream = null;
-
-        try{
+        FileInputStream inputStream=null;
+        try {
             inputStream = new FileInputStream(
                     System.getProperty("user.dir") +
-                            "src/main/resources/FrameworkConfig.properties");
+                            "/src/test/resources/FrameworkConfig.properties");
             properties = new Properties();
             properties.load(inputStream);
-
-        } catch (FileNotFoundException e) {
+        }
+        catch (FileNotFoundException e){
             //e.printStackTrace();
         }
         catch(IOException e){
@@ -37,10 +34,9 @@ public final class PropertyUtils {
         finally {
             try {
                 inputStream.close();
+            } catch (IOException e) {
+                e.printStackTrace();
             }
-                catch(IOException e){
-                    e.printStackTrace();
-                }
         }
         return properties.getProperty(key);
     }
