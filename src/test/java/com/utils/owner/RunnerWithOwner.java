@@ -4,6 +4,7 @@ import org.aeonbits.owner.ConfigFactory;
 
 public class RunnerWithOwner {
 
+    //Owner Example
     public static void main(String[] args) {
         FrameworkConfig config = ConfigFactory.create(FrameworkConfig.class);
         System.out.println(config.browser());
