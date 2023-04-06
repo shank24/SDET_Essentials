@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="348491b4-753b-4aef-87c9-b6cf2389979d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/owner/BrowserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/owner/BrowserType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/owner/FrameworkConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/owner/FrameworkConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/utils/owner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utils/owner/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/utils/owner/RunnerWithOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utils/owner/RunnerWithOwner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/FrameworkConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/FrameworkConfig.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +171,7 @@
       <recent name="com.utils.owner" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Runner">
+  <component name="RunManager" selected="Application.RunnerWithOwner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.utils.owner.Runner" />
       <module name="SDET_QA" />
@@ -209,9 +213,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.TryWithResourcesRunner" />
         <item itemvalue="Application.RunnerWithOwner" />
+        <item itemvalue="Application.TryWithResourcesRunner" />
+        <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -270,6 +274,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/utils/owner/Runner.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/utils/owner/RunnerWithOwner.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/utils/owner/RunnerWithOwner.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

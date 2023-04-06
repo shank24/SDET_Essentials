@@ -19,7 +19,7 @@ public class Runner {
         String timeout = PropertyUtils.readPropertyFile("timeout");
         driver.manage().timeouts().implicitlyWait(Long.parseLong(timeout), TimeUnit.SECONDS);
 
-        String isScreenshotNeeded = PropertyUtils.readPropertyFile("takesscreenshot");
+        String isScreenshotNeeded = PropertyUtils.readPropertyFile("takeScreenshot");
         if(isScreenshotNeeded.equalsIgnoreCase("true")){
             //write code to take screenshot
         }
