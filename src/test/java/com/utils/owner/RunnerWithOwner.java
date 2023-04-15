@@ -17,6 +17,10 @@ public class RunnerWithOwner {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
+        synchronized(driver){
+            driver.wait(5000);
+        }
+
         driver.manage().timeouts().implicitlyWait(config.timeout(), config.value());
         System.out.println(config.timeout());
 

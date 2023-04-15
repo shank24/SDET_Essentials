@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="348491b4-753b-4aef-87c9-b6cf2389979d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/owner/BrowserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/owner/BrowserType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/owner/FrameworkConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/owner/FrameworkConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/utils/owner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utils/owner/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/utils/owner/RunnerWithOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utils/owner/RunnerWithOwner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/FrameworkConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/FrameworkConfig.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,13 +273,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/utils/owner/RunnerWithOwner.java</url>
-          <line>19</line>
+          <line>23</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/utils/owner/RunnerWithOwner.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
