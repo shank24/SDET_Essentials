@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 public class RunnerWithOwner {
 
     //Owner Example
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         FrameworkConfig config = ConfigFactory.create(FrameworkConfig.class);
         System.out.println(config.browser());
 
